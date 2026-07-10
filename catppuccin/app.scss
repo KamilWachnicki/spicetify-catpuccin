@@ -22,14 +22,14 @@
     background-color: var(--spice-surface0);
     color: var(--spice-subtext);
     transition: all 0.2s ease;
-    
+
     &:focus {
       background-color: var(--spice-surface1);
       color: var(--spice-text);
       outline: 2px solid var(--spice-overlay1);
       outline-offset: 1px;
     }
-    
+
     &::placeholder {
       color: var(--spice-overlay0);
       transition: color 0.2s ease;
@@ -40,12 +40,12 @@
     color: var(--spice-text);
     background-color: var(--spice-surface0);
     transition: all 0.2s ease;
-    
+
     &:hover:not(:disabled) {
       background-color: var(--spice-surface1);
       cursor: pointer;
     }
-    
+
     &:focus {
       outline: 2px solid var(--spice-overlay1);
       outline-offset: 1px;
@@ -76,7 +76,7 @@
   input:checked:hover:not([disabled], :active)~.x-toggle-indicatorWrapper {
     background-color: var(--spice-overlay0);
   }
-  
+
   input:focus-visible~.x-toggle-indicatorWrapper {
     outline: 2px solid var(--spice-overlay1);
     outline-offset: 2px;
@@ -92,15 +92,11 @@
   }
 
   .main-trackList-playingIcon {
-    background-size: cover;
-    padding-left: 100%;
-    background-image: var(--spice-equalizer);
+    content: var(--spice-equalizer);
   }
 
-  .view-homeShortcutsGrid-equaliser {
-    background-image: var(--spice-equalizer);
-    background-size: cover;
-    padding-left: 35%;
+  .view-homeShortcutsGrid-equaliserImage {
+    content: var(--spice-equalizer);
   }
 
   // Scrollbars

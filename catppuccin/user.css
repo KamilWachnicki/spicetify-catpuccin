@@ -217,14 +217,10 @@
   color: var(--spice-subtext) !important;
 }
 :root .main-trackList-playingIcon {
-  background-size: cover;
-  padding-left: 100%;
-  background-image: var(--spice-equalizer);
+  content: var(--spice-equalizer);
 }
-:root .view-homeShortcutsGrid-equaliser {
-  background-image: var(--spice-equalizer);
-  background-size: cover;
-  padding-left: 35%;
+:root .view-homeShortcutsGrid-equaliserImage {
+  content: var(--spice-equalizer);
 }
 :root .os-scrollbar-track,
 :root ::-webkit-scrollbar {
@@ -251,4 +247,11 @@
 :root .main-contextMenu-menuItemButton:hover,
 :root .main-contextMenu-menuItemButton:not([aria-checked=true]):focus {
   color: var(--spice-subtext);
+}
+:root .main-home-filterChipsSection {
+    background-color: var(--spice-main);
+}
+
+:root .main-home-filterChipsSection::after {
+    background-color: transparent;
 }

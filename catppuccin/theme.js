@@ -41,6 +41,7 @@
 
     Spicetify.React.useEffect(() => {
       const accent = selectedValue === "none" ? "text" : selectedValue;
+      console.log(accent)
       const properties = {
         "--spice-text": `var(--spice-${selectedValue})`,
         "--spice-button-active": `var(--spice-${selectedValue})`,
@@ -48,7 +49,7 @@
           "body > script.marketplaceScript"
         )
           ? `url('https://github.com/catppuccin/spicetify/blob/main/catppuccin/assets/${colorScheme}/equalizer-animated-${accent}.gif?raw=true')`
-          : `url('${colorScheme}/equalizer-animated-${accent}.gif')`,
+          : `url('assets/${colorScheme}/equalizer-animated-${accent}.gif')`,
       };
 
       Object.entries(properties).forEach(([property, value]) => {
