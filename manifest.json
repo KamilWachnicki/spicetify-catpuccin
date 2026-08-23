@@ -1,6 +1,6 @@
 [
   {
-    "name": "Catppuccin-Fork",
+    "name": "Catppuccin-Test",
     "description": "Maintained fork of Catpcuccin",
     "preview": "assets/catppuccin-latte.webp",
     "readme": "README.md",
@@ -11,8 +11,8 @@
     ],
     "assets": "catppuccin/assets"
     "authors": [
-      { "name": "Kamil Wachnicki", "url": "https://github.com/catppuccin" }
+      { "name": "Cattpuccin Org", "url": "https://github.com/catppuccin" }
     ],
-    "tags": ["official", "palette"]
+    "tags": ["palette"]
   }
 ]
