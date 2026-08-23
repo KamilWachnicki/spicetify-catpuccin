@@ -9,7 +9,7 @@
     "include": [
       "https://raw.githubusercontent.com/KamilWachnicki/spicetify-catpuccin/refs/heads/main/catppuccin/theme.js"
     ],
-    "assets": "catppuccin/assets"
+    "assets": "catppuccin/assets",
     "authors": [
       { "name": "Cattpuccin Org", "url": "https://github.com/catppuccin" }
     ],
